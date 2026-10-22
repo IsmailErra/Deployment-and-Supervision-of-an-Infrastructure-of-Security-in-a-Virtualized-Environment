@@ -1,0 +1,21 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Runtime data and local tooling
+.venv/
+__pycache__/
+node_modules/
+*.pcap
+*.pcapng
+.DS_Store
+Thumbs.db
+
+# Raw appliance exports can contain credentials
+config.xml
+config-*.xml
